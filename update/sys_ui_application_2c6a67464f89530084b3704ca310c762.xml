@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>AccessPatterns</name>
+        <order/>
+        <roles>x_201094_accesspat.accesspatterns_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-26 13:39:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c6a67464f89530084b3704ca310c762</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AccessPatterns</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+        <sys_update_name>sys_ui_application_2c6a67464f89530084b3704ca310c762</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-26 13:39:41</sys_updated_on>
+    </sys_ui_application>
+</record_update>
