@@ -2,5 +2,18 @@
 <database>
     <element label="AccessPatterns" max_length="40" name="x_201094_accesspat_accesspatterns" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Classification" mandatory="true" max_length="40" name="u_data_classification" type="string">
+            <choice>
+                <element label="Black/Red/Orange" sequence="0" value="high"/>
+                <element label="Yellow" sequence="1" value="medium"/>
+                <element label="Public" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Enterprise user" mandatory="true" max_length="40" name="u_enterprise_user" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
     </element>
 </database>
