@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="AccessPatterns Properties">a3b0286a4f01130084b3704ca310c7a4</category>
+        <order>100</order>
+        <property display_value="x_201094_accesspat.authnReqs" name="x_201094_accesspat.authnReqs">d86120aa4f01130084b3704ca310c7f0</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-27 12:26:27</sys_created_on>
+        <sys_id>353360ea4f01130084b3704ca310c761</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_201094_accesspat.authnReqs.AccessPatterns Properties</sys_name>
+        <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_353360ea4f01130084b3704ca310c761</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-27 12:26:27</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -2,11 +2,25 @@
 <database>
     <element label="AccessPatterns" max_length="40" name="x_201094_accesspat_accesspatterns" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_exposure" dependent_on_field="u_exposure" label="Channel" mandatory="true" max_length="40" name="u_channel" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="internet" label="Mobile" value="u_internet_mobile"/>
+                <element dependent_value="intranet" label="SSH/RDP" value="u_intranet_ssh"/>
+                <element dependent_value="intranet" label="Web" value="u_intranet_web"/>
+                <element dependent_value="internet" label="Web" value="u_internet_web"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data Classification" mandatory="true" max_length="40" name="u_data_classification" type="string">
             <choice>
                 <element label="Black/Red/Orange" sequence="0" value="high"/>
                 <element label="Yellow" sequence="1" value="medium"/>
                 <element label="Public" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Require Device Compliance" mandatory="true" max_length="40" name="u_device_compliance" type="string">
+            <choice>
+                <element label="yes" sequence="0" value="yes"/>
+                <element label="no" sequence="1" value="no"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Enterprise user" mandatory="true" max_length="40" name="u_enterprise_user" type="string">
@@ -15,5 +29,20 @@
                 <element label="No" sequence="1" value="no"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Exposure" mandatory="true" max_length="40" name="u_exposure" type="string">
+            <choice>
+                <element label="Internet Facing" sequence="0" value="internet"/>
+                <element label="Intranet Facing" sequence="1" value="intranet"/>
+            </choice>
+        </element>
+        <element label="New HTML" max_length="65536" name="u_html_1" read_only="true" type="html"/>
+        <element label="Requirements" max_length="65536" name="u_requirements" read_only="true" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Require Device Sharing" mandatory="true" max_length="40" name="u_require_device_sharing" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="String 2" max_length="40" name="u_string_2" type="string"/>
     </element>
 </database>

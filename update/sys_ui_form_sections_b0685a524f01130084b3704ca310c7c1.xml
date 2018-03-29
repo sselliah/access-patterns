@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_201094_accesspat_accesspatterns" name="x_201094_accesspat_accesspatterns" sys_domain="global" view="Default view">b0685a524f01130084b3704ca310c7c1</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_201094_accesspat_accesspatterns" sys_domain="global" view="Default view">70685a524f01130084b3704ca310c7c0</sys_ui_section>
+            <sys_ui_section caption="Eliciting Security Requirements" display_value="Eliciting Security Requirements" name="x_201094_accesspat_accesspatterns" sys_domain="global" view="Default view">70685a524f01130084b3704ca310c7c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-03-27 02:19:54</sys_updated_on>
         </sys_ui_form_section>

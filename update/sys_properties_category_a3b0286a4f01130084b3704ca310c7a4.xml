@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>AccessPatterns Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-27 12:17:14</sys_created_on>
+        <sys_id>a3b0286a4f01130084b3704ca310c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AccessPatterns Properties</sys_name>
+        <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+        <sys_update_name>sys_properties_category_a3b0286a4f01130084b3704ca310c7a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-27 12:17:14</sys_updated_on>
+        <title><![CDATA[<p>Properties will define the requirements</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3b0286a4f01130084b3704ca310c7a4"/>
+</record_update>

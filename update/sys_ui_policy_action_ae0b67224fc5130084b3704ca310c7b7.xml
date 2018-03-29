@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_exposure</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 03:00:07</sys_created_on>
+        <sys_id>ae0b67224fc5130084b3704ca310c7b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_exposure</sys_name>
+        <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ae0b67224fc5130084b3704ca310c7b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 03:00:07</sys_updated_on>
+        <table>x_201094_accesspat_accesspatterns</table>
+        <ui_policy display_value="Conditional display of exposure criteria">bacae7ee4f85130084b3704ca310c770</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

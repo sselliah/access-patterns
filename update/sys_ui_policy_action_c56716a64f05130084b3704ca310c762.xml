@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_channel</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-27 20:54:40</sys_created_on>
+        <sys_id>c56716a64f05130084b3704ca310c762</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_channel</sys_name>
+        <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c56716a64f05130084b3704ca310c762</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 03:03:01</sys_updated_on>
+        <table>x_201094_accesspat_accesspatterns</table>
+        <ui_policy display_value="Conditional showing of channel criteria">d9b69e664f05130084b3704ca310c768</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

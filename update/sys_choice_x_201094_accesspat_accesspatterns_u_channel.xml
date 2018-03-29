@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_channel" table="x_201094_accesspat_accesspatterns" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>internet</dependent_value>
+            <element>u_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_201094_accesspat_accesspatterns</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 02:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf1f9f6a4f85130084b3704ca310c7c1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 04:11:01</sys_updated_on>
+            <value>u_internet_mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>internet</dependent_value>
+            <element>u_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web</label>
+            <language>en</language>
+            <name>x_201094_accesspat_accesspatterns</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 02:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f89d1b664f85130084b3704ca310c735</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 04:11:49</sys_updated_on>
+            <value>u_internet_web</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>intranet</dependent_value>
+            <element>u_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSH/RDP</label>
+            <language>en</language>
+            <name>x_201094_accesspat_accesspatterns</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 02:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6991e3ea4f85130084b3704ca310c706</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 04:11:17</sys_updated_on>
+            <value>u_intranet_ssh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>intranet</dependent_value>
+            <element>u_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web</label>
+            <language>en</language>
+            <name>x_201094_accesspat_accesspatterns</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 02:16:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e06faa4f85130084b3704ca310c7d1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 04:11:30</sys_updated_on>
+            <value>u_intranet_web</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_channel</element>
+            <name>x_201094_accesspat_accesspatterns</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 02:00:40</sys_created_on>
+            <sys_id>7c9d536a4f85130084b3704ca310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_channel</sys_name>
+            <sys_package display_value="AccessPatterns" source="x_201094_accesspat">989567424f09530084b3704ca310c730</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AccessPatterns">989567424f09530084b3704ca310c730</sys_scope>
+            <sys_update_name>sys_choice_x_201094_accesspat_accesspatterns_u_channel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 02:00:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
